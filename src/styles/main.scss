@@ -1,0 +1,19 @@
+@use "var";
+@use "font";
+
+* {
+  margin: 0;
+}
+
+.first-screen {
+}
+.logo {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.07em;
+  color: var.$zagolovki;
+  &._publisher {
+    color: var.$fioletovyy-osnovnoy;
+  }
+}

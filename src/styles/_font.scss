@@ -1,0 +1,24 @@
+$font-family-montserrat: "Montserrat", sans-serif;
+$font-family-gilroy: "Gilroy",sans-serif;
+
+@font-face {
+  font-family: $font-family-montserrat;
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: $font-family-montserrat;
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: $font-family-montserrat;
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+    font-family: $font-family-gilroy;
+    src: url("../fonts/Gilroy-Black_0.ttf") format("truetype");
+    font-weight: 900;
+  }

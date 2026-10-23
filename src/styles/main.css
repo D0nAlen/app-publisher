@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  src: url("../fonts/Gilroy-Black_0.ttf") format("truetype");
+  font-weight: 900;
+}
+* {
+  margin: 0;
+}
+
+.logo {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.07em;
+  color: #292930;
+}
+.logo._publisher {
+  color: #5360fe;
+}/*# sourceMappingURL=main.css.map */
